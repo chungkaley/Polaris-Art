@@ -1,0 +1,312 @@
+
+search{
+  display: inline;
+}
+
+sign-up-info{
+  display: block;
+}
+
+login-info{
+  display: block;
+}
+
+body{
+  background-image: url("spacebg2.jpeg");
+  background-repeat: repeat-x;
+  background-color: #cccccc;
+  padding-bottom: 70px;
+  object-fit: cover;
+  margin:0;
+}
+
+h1{
+  color: #ffffd4; 
+  font-family: 'Amatic SC', cursive;
+  background-color: #77acbd;
+}
+
+.siteName{
+  padding-top: 10px;
+  font-family: 'Zen Tokyo Zoo', cursive; 
+}
+
+h3{
+  color: #faf8ed;
+  font-family: 'Poiret One', cursive;
+  background-color: #548896;
+  background-size: 500%;
+  /* anyone know how to change background fill size? that would be nice */
+}
+
+h2{
+  color:#faf8ed;
+  font-family: 'Poiret One', cursive;
+  
+}
+
+p{
+  color:#faf8ed;
+  font-family: 'Poiret One', cursive;
+}
+
+a{
+  color:#daf0f5;
+  height: 50px;
+  width: 10px;
+}
+
+button{
+  transition-duration: 0.4s;
+  background-color: #042623;
+  color: #daf0f5;
+  margin: 15px;
+  padding: 10px;
+  padding-bottom: 10px;
+  width: 150x;
+  border-radius: 30px;
+}
+
+button:hover{
+  background-color: #15474f;
+  color: #daf0f5;
+}
+
+.pictureSize{
+  display: inline-block; 
+  padding: 7px;
+  /* padding-bottom: 15px; */
+  height: 330px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.rocket-ship-logo{
+  display: block;
+  padding-left: 45px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-top:10px;
+  height: 70px; 
+  width: 70px;
+  object-fit:cover;
+}
+
+.nav1{
+  display:flex;
+  justify-content: space-between;
+  background-color:#77acbd;
+}
+
+.nav2{
+  align-self: center;
+  background-color: #77acbd;
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%
+  /* change color of buttonsssss */
+}
+
+.getPrompt{
+  color:#daf0f5;
+}
+
+.gallery {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+} 
+
+
+.gallery-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  /* // padding: 15px; */
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.gallery:hover .gallery-layer_top,
+.gallery.active .gallery-layer_top {
+  opacity: 1;
+}
+
+.gallery .gallery-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* This is for the photos in the discover page */
+
+img{
+
+  height: 330px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 15px;
+} 
+
+.row2{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row3{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row4{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row5{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row6{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row7{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.row8{
+  display: flex;
+  justify-content: space-evenly; 
+  margin: 20px;
+} 
+
+.youtubeChannels{
+  margin: 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 180px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+}
+
+.musicPlaylists{
+  width: 150px;
+}
+
+/* the mission section in about us */
+.our-mission{
+  margin:100px;
+  font-size: 200%;
+}
+/* This is to make our profile pictures circular in the about us section: */
+
+.pfp1 {
+    width: 200px;
+    height: 200px;
+    /* flex-basis: 200px; */
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 100%;
+    object-fit:cover;
+    
+}
+
+.bio1{
+  margin: 115px;
+  font-size: 150%
+}
+
+
+/* altering the location of text and pic in the about us page */
+
+.container{
+  display: flex;
+  margin: 50px;
+
+  padding: 10px;
+
+}
+
+/* login page */
+
+.submit-login{
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+  background-color: #77acbd;
+}
+
+.login-info{
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%
+}
+
+/* sign-up page */
+.sign-up-info{
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%
+}
+
+.submit-signup{
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+  background-color: #77acbd;
+}
+
+/* add your own creation submit button */
+.add-your-own-creation-submit-button{
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+  background-color: #77acbd;
+}
+
+.file{
+  font-family: 'Amatic SC', cursive;
+  font-size: 100%;
+  background-color: #77acbd;
+  margin: 5%;
+}
+
+/* buttons to go back to home page */
+.home-page-button{
+  font-family: 'Amatic SC', cursive;
+  font-size: 100%;
+  background-color: #77acbd;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
